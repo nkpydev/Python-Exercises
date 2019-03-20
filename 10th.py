@@ -15,3 +15,10 @@ if __name__ == '__main__':
             final_output.append(aword)
     final_output.sort()
     print(final_output)
+
+# The same result can be achieved by using "set" and "sorted"
+'''
+user_input = [word for word in input('\nEnter words [seperated by "space"]:\t).split(' ')]
+print(' '.join(sorted(list(set(user_input)))))
+
+'''
